@@ -14,8 +14,8 @@ Each secret in a room requires multiple precalculation for various target destin
 ### How do I precalculate?
 
 There are 2 methods you can do.
-1. [Precalculate on the cloud](./precalculate-on-cloud) (Takes 30 minutes) - Recommended
-2. [Precalculate on your pc](./precalculate-locally) (Takes more than 24 hours)
+1. [Precalculate on the cloud](/docs/pathfinding/precalculation/precalculate-on-cloud) (Takes 30 minutes) - Recommended
+2. [Precalculate on your pc](/docs/pathfinding/precalculation/precalculate-locally) (Takes more than 24 hours)
 
 The time is for doing precalculation on all secrets in all rooms
 
