@@ -87,6 +87,11 @@ const config: Config = {
           label: 'Documentation',
         },
         {
+          href: "https://modrinth.com/mod/dungeons-guide",
+          label: "Modrinth",
+          position: "right"
+        },
+        {
           href: 'https://dungeons.guide/discord',
           label: 'Discord',
           position: 'right',
@@ -129,6 +134,10 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/Dungeons-Guide/Skyblock-Dungeons-Guide',
+            },
+            {
+              label: 'Modrinth',
+              href: 'https://modrinth.com/mod/dungeons-guide',
             },
           ],
         },
