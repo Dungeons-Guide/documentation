@@ -7,9 +7,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Dungeons Guide',
   tagline: 'The most intelligent Skyblock Mod',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico', 
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-conf ig#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
