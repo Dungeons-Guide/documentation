@@ -57,26 +57,26 @@ It takes few minutes to generate all precalculation requests.
 
 After it has generated all the requests it will continue with zipping the requests.
 
-### 4. Git clone Pathfinder Repository
+### Step 4. Git clone Pathfinder Repository
 
 C++ Pathfinder is located at [this github repository](https://github.com/Dungeons-Guide/Pathfinder)
 
 Please git clone
 
-### 5. Build C++ Pathfinder
+### Step 5. Build C++ Pathfinder
 
 Using your favorite build tools, build the pathfinder.
 
 Please don't ask developer for the instruction to build C++ Pathfinder on your pc. Maybe use ChatGPT, it can help you out with setting up build env.
 
-### 6. Get the zip from step 3.
+### Step 6. Get the zip from step 3.
 
 ![Request Precalac](./img/screenshot7.png)
 
 Click Open Directory on bottom right, and find the generated pf req file.
 The file name of the generated file also can be found in the chat.
 
-### 7. Unzip the file
+### Step 7. Unzip the file
 
 Create new `requests/` directory under pathfinder.
 
@@ -84,11 +84,11 @@ Unzip all the files into that.
 
 Also create new `results/` directory under pathfinder
 
-### 8. Run precalculation
+### Step 8. Run precalculation
 
 run `./processFiles.sh`. The file is simple enough that you can modify it to change your cpu count and stuff.
 
-### 9. Get results
+### Step 9. Get results
 
 The resulting precalculation files should be `results/` directory.
 
@@ -96,7 +96,7 @@ Create new directory under `.minecraft/config/dungeonsguide/precalculation`, and
 
 Restart the Minecraft
 
-### 10. Confirm precalculations are installed
+### Step 10. Confirm precalculations are installed
 
 Go back to `/dg -> Pathfinding & Secrets -> Precalculations` and choose the preset you requested precalculation on.
 ![Presets](./img/screenshot16.png)
