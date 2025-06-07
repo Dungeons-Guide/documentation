@@ -45,7 +45,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Dungeons-Guide/documentation/tree/main/docs',
+            'https://github.com/Dungeons-Guide/documentation/tree/main',
         },
         // blog: {
         //   showReadingTime: true,
@@ -133,7 +133,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Dungeons Guide, LLC. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Dungeons Guide. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
